@@ -115,9 +115,9 @@ namespace FtpClient.ViewModel
 			DownloadFileCommand = new RelayCommand(DownloadFileCommandExecute, CanDownloadFileCommandExecute);
 
 			ItemsToDisplay = new ObservableCollection<string>();
-			Username = "ru73432";
-			Password = "Vwztrm8Ky8";
-			BaseUriValue = "ftp://sb11500.sdedi.net";
+			Username = "";
+			Password = "";
+			BaseUriValue = "";
 		}
 
 		#region Commands
